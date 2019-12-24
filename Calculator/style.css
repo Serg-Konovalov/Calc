@@ -1,0 +1,36 @@
+body{
+	width: 190px;
+	margin:  50px auto;
+}
+
+h1{
+	text-align: center;
+}
+
+#calculator * {
+	font-size: 16px;
+}
+
+#calculator table {
+	border: solid 5px silver; 
+	border-spacing: 5px; 
+	background-color: #F2FFBB; 
+}
+
+#calculator table td {
+	border-spacing: 3px;
+}
+
+input.display {
+	width: 170px;
+}
+
+td.buttons {
+	border-top: solid 3px silver;
+}	
+
+input[type = button] {
+	width: 39px; 
+	height: 30px;
+	margin-top: 2px;
+}
